@@ -1,0 +1,201 @@
+
+main{
+	width:100%;
+	margin:0;
+	font-family: 'Quicksand', "sans-serif", "veranda";
+	
+}
+
+body{
+	background-color: #141d26;
+}
+
+h1, h2, h3, h4{
+	color: #ffffff;
+}
+
+h2 {
+  color: #b3d9ff;
+}
+
+h3 {
+  color: #9ab4c6;
+  font-size: 120% !important;
+}
+
+span{
+	color: #99ccff;
+}
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+a {
+  color: #9ab4c6;
+  transition: color 1s;
+  text-decoration:none;
+}
+a:hover {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+#title{
+
+	display:grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
+	width:40%;
+	width:600px;
+	text-align:left;
+	margin:auto;
+	margin-top:10%;
+}
+
+#title_img{
+	margin:auto;
+	grid-column-start: col-start 1;
+}
+
+#title_desc{
+	margin:auto;
+	grid-column-start: col-start 2;
+	margin-left: 20px;
+}
+
+#profile_pic{
+	display:inline-block;
+	width: 150px;
+	heght: 150px;
+	border-radius:50%;
+	box-shadow: 1px 1px 5px black;
+	
+}
+
+#bio{
+	color:#ffffff;
+	font-size:90%;
+	text-align:justify;
+}
+
+.contact{
+	
+	display:inline-grid;
+	margin:auto;
+	display:grid;
+	grid-template-columns: 90px 90px 90px;
+	grid-template-rows: auto;
+	width:40%;
+	width:270px;
+	text-align:center;
+	margin-top:2%;
+}
+
+
+.a_contact{
+	background-color: #99ccff;
+	margin:auto;
+	width: 48px;
+	height: 48px;
+	padding:10px;
+	overflow: hidden;
+	position: relative;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: #ffffff;
+	border-width: 1.5px; 
+		transition: background-color 2s;
+	transition: border-color 3s;
+}
+
+.a_contact:hover {
+background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.a_contact img{
+	position: relative;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	
+}
+
+.container{
+	width:70%;
+	background-color:#243447;
+	margin-left:auto;
+	margin-right:auto;
+	 margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  overflow: hidden;
+  
+}
+
+.collapsible{
+	cursor:pointer;
+
+}
+
+.collapsible h2 {
+  transition: color 2s;
+}
+
+.collapsible h2:hover {
+  color: #ffffff;
+}
+
+.pound {
+  color: #9ab4c6;
+}
+
+.content{
+\
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+}
+
+.wrapper {
+  width: 90%;
+  padding: 10px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.wrapper h2 {
+  display: inline;
+}
+
+.wrapper span {
+  color: #ffffff;
+  font-size: 90%;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+
+.skill {
+  font-size: 80% !important;
+  color: #c1b3b9 !important;
+}
+
+.a_project {
+  margin: 25px;
+}
+
+.a_project h3 {
+  display: inline;
+}
